@@ -26,7 +26,7 @@ typedef NS_OPTIONS(NSUInteger, TWRBorderMask) {
 @property (nonatomic, assign) BOOL topBorder;
 @property (nonatomic, assign) BOOL bottomBorder;
 @property (nonatomic, assign) BOOL leftBorder;
-@property (nonatomic, assign) BOOL rightomBorder;
+@property (nonatomic, assign) BOOL rightBorder;
 
 - (id)initWithFrame:(CGRect)frame borderWidth:(CGFloat)width color:(UIColor *)color andMask:(TWRBorderMask)mask;
 
