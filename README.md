@@ -29,7 +29,7 @@ The bordered view can be set up either via Interface Builder (XIB and Storyboard
 
 ### Interface Builder
 
-Just set up TWRBorderedView as the class of any UIView and using the Identity Inspector to set User Defined Runtime Attributes.
+Just set up TWRBorderedView as the class of any UIView and use the Identity Inspector to set User Defined Runtime Attributes.
 
 The following key paths can be defined:
 
