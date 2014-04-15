@@ -40,7 +40,7 @@ The following key paths can be defined:
 - borderColor (Color)
 - borderWidth (Number) - in points
 
-Here is how it looks like setting the properties from Xcode's Interface Builder example:
+Here is an example of how it looks like setting the properties from Xcode's Interface Builder:
 ![](http://cocoahunter-blog.s3.amazonaws.com/TWRBorderedView/bordered_view.png)
 
 ### Programmatically
@@ -49,11 +49,11 @@ If you prefer adding you subviews from code, you can work with TWRBorderedView p
 
 ```objc
 CGRect borderedViewRect = CGRectMake(0, 0, 100, 100);
-    TWRBorderMask mask = (TWRBorderMaskBottom | TWRBorderMaskTop);
-    TWRBorderedView *borderedView = [[TWRBorderedView alloc] initWithFrame:borderedViewRect
-                                                        borderWidth:5.0f
-                                                              color:[UIColor greenColor]
-                                                            andMask:mask];
+TWRBorderMask mask = (TWRBorderMaskBottom | TWRBorderMaskTop);
+TWRBorderedView *borderedView = [[TWRBorderedView alloc] initWithFrame:borderedViewRect
+                                                           borderWidth:5.0f
+                                                                 color:[UIColor greenColor]
+                                                               andMask:mask];
 [self.view addSubview:borderedView];
 ```
 
