@@ -32,7 +32,7 @@
         _mask += TWRBorderMaskLeft;
     }
     
-    if (_rightomBorder) {
+    if (_rightBorder) {
         _mask += TWRBorderMaskRight;
     }
 }
